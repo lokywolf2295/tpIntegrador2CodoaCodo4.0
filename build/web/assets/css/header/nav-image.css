@@ -1,0 +1,12 @@
+hr{
+    background-color: orange;
+    height: 15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.image{
+    z-index: 1;
+    position: relative;
+    margin: 0px;
+}

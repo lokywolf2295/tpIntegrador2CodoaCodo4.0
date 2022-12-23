@@ -1,0 +1,48 @@
+.nav{
+    margin: 0px;
+    width: 500px;
+    position: fixed;
+    z-index: 2;
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_anchor li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav_anchor > li{
+    float: left;
+}
+
+.nav_anchor li a:hover{
+    background-color: rgb(58,58,36);
+}
+
+.nav_anchor li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav_anchor li:hover > ul{
+    display: block;
+}
+
+.nav_anchor li ul li {
+    position: relative;
+}
+
+.nav_anchor li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
